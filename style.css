@@ -12,7 +12,7 @@ body{
     background: #f3f5f6;
 }
 header{
-    background-color:white;
+    background-color:#003D59;
 }
 .cabecalho{
     display: flex;
@@ -31,7 +31,7 @@ header{
 }
 .itemMenuCabecalho{
     font-family: 'Quicksand', sans-serif;
-    color: #003D59;
+    color: white;
     font-weight: 700;
     font-size: 20px;
 }
@@ -61,14 +61,12 @@ header{
     color: #003D59;
     font-weight: 700;
     font-size: 23px;
-    align-items: center;
-}
+    }
 .conteudoPrincipalEscritoSubtitulo{
     font-family: 'Quicksand', sans-serif;
     color: #003D59;
     font-weight: 700;
     font-size: 20px;
-    align-items: center;
 }
 .conteudoPrincipalEscritoBotao{
     background-color: #71BECF;
@@ -81,7 +79,6 @@ header{
     color: #003D59;
     font-weight: 700;
     font-size: 18px;
-    align-items: center;
 }
 .conteudoSecundario{
     display: flex;
@@ -94,7 +91,7 @@ header{
     border-top: 4px solid #003D59;
     padding-top: 48px;
     font-family: 'Quicksand', sans-serif;
-    color: #003D59;
+    color: #fe6625;
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 16px;
@@ -106,8 +103,9 @@ header{
     font-size: 19px;
 }
 .rodape{
-    padding: 32px;
+    padding: 5px;
     border-top: 4px solid #003D59;
+    background: white;
  }
  .imagemRodape{
     max-width: 10%;
