@@ -11,4 +11,27 @@ body{
     font-size: 100%;
     background: #003d59;
 }
-
+header{
+    background-color:white;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.imagemCabecalho{
+    max-width: 10%;
+    height: auto;
+}
+.menuCabecalho{
+    display: flex;
+    gap: 80px;
+}
+.itemMenuCabecalho{
+    font-family: 'Quicksand', sans-serif;
+    color: #003D59;
+    font-weight: 700;
+    font-size: 20px;
+}
