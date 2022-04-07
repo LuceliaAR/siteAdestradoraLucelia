@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background: #003d59;
+    background: white;
 }
 header{
     background-color:white;
@@ -19,7 +19,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 10px;
 }
 .imagemCabecalho{
     max-width: 10%;
@@ -30,6 +30,39 @@ header{
     gap: 80px;
 }
 .itemMenuCabecalho{
+    font-family: 'Quicksand', sans-serif;
+    color: #003D59;
+    font-weight: 700;
+    font-size: 20px;
+}
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 4px solid #003D59;
+}
+.conteudoPrincipal{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    background: #f3f5f6;
+
+}
+.conteudoPrincipalEscritoImagem{
+    max-width: 40%;
+    height: auto;
+}
+.conteudoPrincipalEscrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudoPrincipalEscritoTitulo{
+    font-family: 'Quicksand', sans-serif;
+    color: #003D59;
+    font-weight: 700;
+    font-size: 23px;
+}
+.conteudoPrincipalEscritoSubtitulo{
     font-family: 'Quicksand', sans-serif;
     color: #003D59;
     font-weight: 700;
