@@ -48,24 +48,29 @@ header{
 .conteudoPrincipalEscritoImagem{
     max-width: 40%;
     height: auto;
-    align-items: stretch;
 }
 .conteudoPrincipalEscrito{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    align-items: center;
 }
 .conteudoPrincipalEscritoTitulo{
     font-family: 'Quicksand', sans-serif;
     color: #003D59;
     font-weight: 700;
     font-size: 23px;
+    align-items: center;
     }
 .conteudoPrincipalEscritoSubtitulo{
     font-family: 'Quicksand', sans-serif;
     color: #003D59;
     font-weight: 700;
     font-size: 20px;
+    align-items: center;
+    justify-content:center;
+    line-height: 2;
+    margin-top: 40px;
 }
 .conteudoPrincipalEscritoBotao{
     background-color: #71BECF;
@@ -78,6 +83,8 @@ header{
     color: #003D59;
     font-weight: 700;
     font-size: 18px;
+    align-items: center;
+    margin-top: 40px;
 }
 .conteudoSecundario{
     display: flex;
