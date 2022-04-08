@@ -12,7 +12,7 @@ body{
     background: #f3f5f6;
 }
 header{
-    background-color:#003D59;
+    background-color:#ffff;
 }
 .cabecalho{
     display: flex;
@@ -31,7 +31,7 @@ header{
 }
 .itemMenuCabecalho{
     font-family: 'Quicksand', sans-serif;
-    color: white;
+    color: #003D59;
     font-weight: 700;
     font-size: 20px;
 }
@@ -44,7 +44,6 @@ header{
     flex-direction:row;
     background: #f3f5f6;
     align-items: center;
-
 }
 .conteudoPrincipalEscritoImagem{
     max-width: 40%;
@@ -108,7 +107,7 @@ header{
     background: white;
  }
  .imagemRodape{
-    max-width: 10%;
+    max-width: 6%;
     height: auto;
     display: block;
     margin: 0 auto;
